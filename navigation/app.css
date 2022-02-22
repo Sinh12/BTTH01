@@ -1,45 +1,51 @@
-body{
+body {
     background-image: url(../image/image.gif);
     background-size: cover;
+    background-repeat: no-repeat;
     color: white
 }
-*{
+
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-
 }
 
-.body-text{
+.body-text {
     display: flex;
-    font-family: "Montserrat" , sans-serif;
+    font-family: "Montserrat", sans-serif;
     align-items: center;
     justify-content: center;
     margin-top: 250px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
     background-color: teal;
-    font-family: "Montserrat" , sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
-.nav-links{
+
+.nav-links {
     display: flex;
     justify-content: space-around;
     width: 30%;
 }
-.nav-links li{
+
+.nav-links li {
     list-style: none;
 }
-.heading{
+
+.heading {
     color: white;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 20px;
 }
-.nav-links a{
+
+.nav-links a {
     color: white;
     text-decoration: none;
     letter-spacing: 3px;
@@ -47,9 +53,11 @@ nav{
     font-size: 14px;
     padding: 14px 16px;
 }
-.nav-links li a:hover:not(active){
+
+.nav-links li a:hover:not(active) {
     background-color: lightseagreen;
 }
-.nav-links li a.active{
+
+.nav-links li a.active {
     background-color: green;
 }

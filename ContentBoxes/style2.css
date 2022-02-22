@@ -1,19 +1,20 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
     background-image: url(../image/image.gif);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.container{
+.container {
     position: relative;
     width: 1200px;
     height: 300px;
     margin: 240px auto;
 }
 
-.container .box{
+.container .box {
     position: relative;
     width: calc(400px - 30px);
     height: calc(300px - 30px);
@@ -25,7 +26,7 @@ body{
     border-radius: 10px;
 }
 
-.container .box .icon{
+.container .box .icon {
     position: absolute;
     top: 0;
     left: 0;
@@ -36,7 +37,7 @@ body{
     z-index: 1;
 }
 
-.container .box:hover .icon{
+.container .box:hover .icon {
     top: 20px;
     left: calc(50% - 40px);
     width: 80px;
@@ -44,8 +45,7 @@ body{
     border-radius: 50%;
 }
 
-
-.container .box .icon .fa{
+.container .box .icon .fa {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -55,11 +55,11 @@ body{
     color: #fff;
 }
 
-.container .box:hover .icon .fa{
+.container .box:hover .icon .fa {
     font-size: 40px;
 }
 
-.container .box .content{
+.container .box .content {
     position: absolute;
     top: 100%;
     height: calc(100% - 100px);
@@ -71,12 +71,12 @@ body{
     width: 100%;
 }
 
-.container .box:hover .content{
+.container .box:hover .content {
     top: 100px;
     opacity: 1;
 }
 
-.container .box .content h3{
+.container .box .content h3 {
     margin: 0 0 10px;
     padding: 0;
     color: #fff;
@@ -84,7 +84,7 @@ body{
     text-align: center;
 }
 
-.container .box .content p{
+.container .box .content p {
     margin: 0;
     padding: 0;
     color: #fff;
